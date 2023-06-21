@@ -1,0 +1,16 @@
+.headers {
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 30px;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+  }
+}
